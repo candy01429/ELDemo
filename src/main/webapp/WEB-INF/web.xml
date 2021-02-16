@@ -15,4 +15,18 @@
         <param-value>this is value of ServletContextParam</param-value>
     </context-param>
     
+    <!--設定JSP是否可使用EL和scripting(JSP內嵌語法)-->
+    <!--
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>/scripting_off/*</url-pattern>
+            <scripting-invalid>true</scripting-invalid> 禁止JSP內使用scripting
+        </jsp-property-group> 
+      
+        <jsp-property-group>
+            <url-pattern>/EL_off/*</url-pattern>
+            <el-ignored>true</el-ignored> 使EL語法失效
+        </jsp-property-group>
+    </jsp-config> 
+    -->  
 </web-app>
